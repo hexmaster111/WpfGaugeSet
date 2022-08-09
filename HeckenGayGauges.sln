@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundDial", "RoundDial\RoundDial.csproj", "{C96FD42C-02A1-4C4D-B557-682E4365CFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEV_GAUGE_TESTER", "DEV_GAUGE_TESTER\DEV_GAUGE_TESTER.csproj", "{C969516C-F360-456A-8023-E83FC6174ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96FD42C-02A1-4C4D-B557-682E4365CFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96FD42C-02A1-4C4D-B557-682E4365CFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96FD42C-02A1-4C4D-B557-682E4365CFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96FD42C-02A1-4C4D-B557-682E4365CFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C969516C-F360-456A-8023-E83FC6174ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C969516C-F360-456A-8023-E83FC6174ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C969516C-F360-456A-8023-E83FC6174ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C969516C-F360-456A-8023-E83FC6174ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
