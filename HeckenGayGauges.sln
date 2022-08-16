@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundDial", "RoundDial\RoundDial.csproj", "{C96FD42C-02A1-4C4D-B557-682E4365CFBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeckenGayUserControls", "HeckenGayUserControls\HeckenGayUserControls.csproj", "{C96FD42C-02A1-4C4D-B557-682E4365CFBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEV_GAUGE_TESTER", "DEV_GAUGE_TESTER\DEV_GAUGE_TESTER.csproj", "{C969516C-F360-456A-8023-E83FC6174ED6}"
 EndProject

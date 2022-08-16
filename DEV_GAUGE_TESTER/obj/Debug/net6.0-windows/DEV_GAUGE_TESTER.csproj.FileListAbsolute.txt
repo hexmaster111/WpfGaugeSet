@@ -20,5 +20,5 @@ C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\obj\Debug\net6.0-
 C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\obj\Debug\net6.0-windows\DEV_GAUGE_TESTER.pdb
 C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\obj\Debug\net6.0-windows\DEV_GAUGE_TESTER.genruntimeconfig.cache
 C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\obj\Debug\net6.0-windows\ref\DEV_GAUGE_TESTER.dll
-C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\bin\Debug\net6.0-windows\RoundDial.dll
-C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\bin\Debug\net6.0-windows\RoundDial.pdb
+C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\bin\Debug\net6.0-windows\HeckenGayUserControls.dll
+C:\Users\Hailey\RiderProjects\HeckenGayGauges\DEV_GAUGE_TESTER\bin\Debug\net6.0-windows\HeckenGayUserControls.pdb

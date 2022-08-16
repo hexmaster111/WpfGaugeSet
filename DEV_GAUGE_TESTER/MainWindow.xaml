@@ -8,16 +8,22 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height=".1*"/>
+
+            <RowDefinition Height="*" />
+            <RowDefinition Height=".1*" />
         </Grid.RowDefinitions>
 
-        <Slider Grid.Row="1" Minimum="0" Maximum="10" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" ValueChanged="RangeBase_OnValueChanged"/>
+        <Slider Grid.Row="1" Minimum="0" Maximum="1" Width="300"
+                HorizontalAlignment="Center" VerticalAlignment="Top" ValueChanged="RangeBase_OnValueChanged" />
 
-    <Viewbox>
-        <ContentControl Name="CcGauge"/>
-    </Viewbox>
+
         
-        
+        <ContentControl Name="CcGauge" >
+           <!-- <ContentControl.RenderTransform> -->
+           <!--     <SkewTransform AngleX="10" AngleY="10" CenterX="10" CenterY="20"/> -->
+           <!-- </ContentControl.RenderTransform> -->
+        </ContentControl>
+
+
     </Grid>
 </Window>

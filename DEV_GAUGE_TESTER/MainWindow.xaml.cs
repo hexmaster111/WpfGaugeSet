@@ -21,20 +21,29 @@ namespace DEV_GAUGE_TESTER
     /// </summary>
     public partial class MainWindow : Window
     {
-        private BasicRoundDial _basicRoundDial = new();
+        private BarPointer _basicRoundDial = new();
 
         public MainWindow()
         {
+            
             InitializeComponent();
             CcGauge.Content = _basicRoundDial;
 
-            _basicRoundDial.GetDataContext().MinimumValue = 0;
-            _basicRoundDial.GetDataContext().MaximumValue = 10;
+            var gauge = _basicRoundDial.GetDataContext();
+            
+            gauge.MinimumValue = 0;
+            gauge.MaximumValue = 1;
+            gauge.GaugeMainTidle = "Tidle";
+            gauge.GaugeSubTidle = "Sub Tidle";
+            gauge.ShowNeedle = true;
+            gauge.ShowMajorTicks = true;
+            gauge.ShowMinorTicks = true;
+            gauge.ShowValueLabel = true;
+            gauge.UnitLabel = "SliderUnits";
         }
 
         private void RangeBase_OnValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            // _basicRoundDial.SetValue(e.NewValue);
             _basicRoundDial.GetDataContext().GaugeValue = e.NewValue;
         }
     }

@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "DEV_GAUGE_TESTER/1.0.0": {
         "dependencies": {
-          "RoundDial": "1.0.0"
+          "HeckenGayUserControls": "1.0.0"
         },
         "runtime": {
           "DEV_GAUGE_TESTER.dll": {}
         }
       },
-      "RoundDial/1.0.0": {
+      "HeckenGayUserControls/1.0.0": {
         "runtime": {
-          "RoundDial.dll": {}
+          "HeckenGayUserControls.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "RoundDial/1.0.0": {
+    "HeckenGayUserControls/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

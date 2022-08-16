@@ -12,7 +12,7 @@
         <!-- Set Dials Data context to the Generic Gauge Data Context -->
 
         <Grid.Resources>
-            <local:GaugeView x:Key="GaugeViewResorce" />
+            <local:RoundGaugeView x:Key="GaugeViewResorce" />
             <BooleanToVisibilityConverter x:Key="VisibleIfTrueConverter" />
         </Grid.Resources>
 
@@ -120,6 +120,9 @@
             </TextBlock.Effect>
         </TextBlock>
         
+        
+        <!--- Gauge value labels -->
+
         
     </Grid>
 </UserControl>

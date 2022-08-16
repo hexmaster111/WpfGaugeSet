@@ -2,14 +2,14 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "RoundDial/1.0.0": {
+      "HeckenGayUserControls/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/RoundDial.dll": {}
+          "bin/placeholder/HeckenGayUserControls.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RoundDial.dll": {}
+          "bin/placeholder/HeckenGayUserControls.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -18,15 +18,15 @@
     }
   },
   "libraries": {
-    "RoundDial/1.0.0": {
+    "HeckenGayUserControls/1.0.0": {
       "type": "project",
-      "path": "../RoundDial/RoundDial.csproj",
-      "msbuildProject": "../RoundDial/RoundDial.csproj"
+      "path": "../HeckenGayUserControls/HeckenGayUserControls.csproj",
+      "msbuildProject": "../HeckenGayUserControls/HeckenGayUserControls.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "RoundDial >= 1.0.0"
+      "HeckenGayUserControls >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,8 +61,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Hailey\\RiderProjects\\HeckenGayGauges\\RoundDial\\RoundDial.csproj": {
-              "projectPath": "C:\\Users\\Hailey\\RiderProjects\\HeckenGayGauges\\RoundDial\\RoundDial.csproj"
+            "C:\\Users\\Hailey\\RiderProjects\\HeckenGayGauges\\HeckenGayUserControls\\HeckenGayUserControls.csproj": {
+              "projectPath": "C:\\Users\\Hailey\\RiderProjects\\HeckenGayGauges\\HeckenGayUserControls\\HeckenGayUserControls.csproj"
             }
           }
         }

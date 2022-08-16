@@ -11,7 +11,7 @@ namespace HeckenGayGauges
     // to support one-way and two-way bindings
     // (such that the UI element updates when the source
     // has been changed dynamically)
-    public class GaugeView : INotifyPropertyChanged
+    public class RoundGaugeView : INotifyPropertyChanged
     {
         public string _gaugeSubTidle = "Hello mini world";
         private string _gaugeMainTidle = "HELLO WORLD";
@@ -27,11 +27,11 @@ namespace HeckenGayGauges
         
 
 
-        public GaugeView()
+        public RoundGaugeView()
         {
         }
 
-        public GaugeView(string value, double initalValue)
+        public RoundGaugeView(string value, double initalValue)
         {
             _gaugeMainTidle = value;
             _gaugeValue = initalValue;

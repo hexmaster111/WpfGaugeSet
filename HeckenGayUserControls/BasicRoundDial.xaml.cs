@@ -11,10 +11,10 @@ namespace HeckenGayGauges
     public partial class BasicRoundDial : UserControl
     {
        
-        public GaugeView GetDataContext()
+        public RoundGaugeView GetDataContext()
         {
             var binding = BindingOperations.GetBindingExpression(TbSubLabel, TextBlock.TextProperty);
-            var sourceData = (GaugeView)binding.DataItem;
+            var sourceData = (RoundGaugeView)binding.DataItem;
             return sourceData;
         }
         
@@ -22,7 +22,7 @@ namespace HeckenGayGauges
         public BasicRoundDial()
         {
             InitializeComponent();
-            this.DataContext = new GaugeView();
+            this.DataContext = new RoundGaugeView();
 
             // Thread t = new Thread(() =>
             // {
